@@ -1,1 +1,0 @@
-start "C:\Users\jjsey\OneDrive\Desktop\dc" node index.js
