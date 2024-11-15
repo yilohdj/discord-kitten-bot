@@ -37,6 +37,12 @@ client.on('messageCreate', message => {
         message.reply(':3');
     }
 });
+client.on('messageCreate', message => {
+	if(message.author.bot) return;
+    if (message.content === 'woof!') {
+        message.reply('meow!');
+    }
+});
 client.on(Events.InteractionCreate, interaction => {
 	console.log(interaction);
 });
